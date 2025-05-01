@@ -77,6 +77,38 @@ char op; // operaçãos
         break;
     }
 
-    
+    // comando WHILE - enquanto
+    int n = 1;
+    while (n < 10){
+        if ( n % 2 != 0){ 
+            n++;
+            continue;
+        }
+        cout << n << endl;
+        n++;
+    }
+
+    // comando FOR
+    /* for(part1; part2; part3){
+    faça algo aqui}
+    parte 1 = executada 1 vez
+    */
+    for( int i = 1; i <= 10; i++){
+        cout << i << endl;
+    }
+
+    /* calculo FATORIAL
+    0! = 1! = 1
+    3! = 3*2*1 = 6
+    */
+    int nume, fat = 1;
+    cout << "Digite um número: ";
+    cin >> nume;
+
+    for(int i = 1; i < nume; i++) {
+        fat = fat * (i+1);
+    }
+
+    cout << "Fatorial de " << nume << " é: " << fat << endl;
     return 0;
 }
