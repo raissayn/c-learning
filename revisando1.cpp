@@ -3,7 +3,7 @@
 
 using namespace std;
 
-int main() {
+int main(int argc, char *argv[]) {
     cout << "Hello World" << endl;
     // declaração de variáveis 
     int idade;
@@ -20,6 +20,11 @@ int main() {
     int divResultado;
     divResultado = n2 % n1; // % resto divisão
     cout << "Resultado RESTO divisão: " << divResultado << endl;
-    // n++ = n+1
+    // n++ = n+1 // n = n + 1 == n += 1
+
+    //variáveis caracteres/ CHAR
+    char c = 'a';
+    cout << c;
+
     return 0;
 }
