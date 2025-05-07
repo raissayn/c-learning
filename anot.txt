@@ -24,3 +24,10 @@ Variável estática (static int num_static = 1;):
     Mantém seu valor entre chamadas da função.
     Não é destruída ao sair da função, ela persiste durante toda a execução do programa.
 útil para saber quantas vezes uma função é chamada!
+
+----------------------
+Vetores
+tam vetor:
+ cout << sizeof(vetor) <<endl;
+
+char vetor[5] ={'1','2','3','4','5'};
