@@ -1,0 +1,26 @@
+
+modulo = para guardar funções de um código extenso.
+
+criar .h
+ my_math.h
+ #ifndef MY_MATH_H
+ #define MY_MATH_H
+
+funções:
+ex:
+int fatorial(int n);
+int area_quadrado(int lado);
+int area_retangulo(int lado, int base);
+
+#endif
+
+----------------------
+Variável global pode ser acessada dentro de todas funções
+Variável local só pode ser acessada onde ela foi gerada
+(local é mais recomendada!)
+
+Variável estática (static int num_static = 1;):
+    É criada apenas uma vez, na primeira vez que a função é chamada.
+    Mantém seu valor entre chamadas da função.
+    Não é destruída ao sair da função, ela persiste durante toda a execução do programa.
+útil para saber quantas vezes uma função é chamada!
