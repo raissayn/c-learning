@@ -27,6 +27,15 @@ int main(int argc, char *argv[]){
     cout << "Segundo elemento: "<<vetor1[1]<<endl;
     cout << sizeof(vetor1) <<endl;
     
+    cout<< "---------------------------------"<<endl;
+    
+    // vetores STRINGS
+    char nome[] = {'R','A','I','S','S','A','\0'};   //caracter null
+    int i = 0; // lembrar de declarar i !!!
+    while(nome[i]){
+        cout << nome[i] << endl;
+        i++;
+    }
     return 0;
 }
 
